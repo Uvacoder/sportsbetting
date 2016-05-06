@@ -1,0 +1,45 @@
+.holyGrail {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background: #D8D8D8; }
+
+.holyGrailBody {
+  display: flex;
+  flex: 1;
+  background: red; }
+
+.holyGrailContent {
+  flex: 1;
+  background: #D8D8D8;
+  text-align: center; }
+
+#h4Red {
+  color: #ff3300; }
+
+#h4Blue {
+  color: #0000cc; }
+
+#NBAconferences {
+  display: flex;
+  justify-content: space-around; }
+
+.holyGrailAds, .holyGrailNav {
+  flex: 0 0 12em;
+  background: #686868; }
+
+.holyGrailNav {
+  order: -1; }
+
+header {
+  text-align: center;
+  background: #D8D8D8; }
+
+footer {
+  background: #E8E8E8; }
+
+select {
+  width: 100px;
+  text-align: center; }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,52 @@
+
+// %alert {
+//   padding: 15px;
+//   margin:{
+//     bottom: 20px;
+//   }
+//   font: {
+//     weight: $alert-weight;
+//   }
+//   color: $alert_font_color;
+//
+//   border: 2px solid #eee;
+//
+//   @include border-radius($alert-border-radius);
+//   @include box-shadow(2px,2px,6px,$shadow-color);
+//
+//   p {
+//     margin: 0;
+//   }
+//
+//   &:hover {
+//     background-color: purple;
+//   }
+// }
+//
+// .alert {
+//   @extend %alert;
+// }
+//
+// .success {
+//   @extend %alert;
+//   border-color: $alert-succes-color;
+//   background:opacity($alert-succes-color);
+// }
+//
+// .warning {
+//   @extend %alert;
+//   border-color: $alert-warning-color;
+//   background:opacity($alert-warning-color);
+// }
+//
+// .error {
+//   @extend %alert;
+//   border-color: $alert-error-color;
+//   background:opacity($alert-error-color);
+// }
+//
+// .info {
+//   @extend %alert;
+//   border-color: $alert-info-color;
+//   background:opacity($alert-info-color);
+// }
